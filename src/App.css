@@ -1,0 +1,83 @@
+.App { 
+  background-image:linear-gradient(to left, rgb(65, 66, 66),  rgb(102, 100, 84));
+  position: relative;
+  justify-content: center;
+  width:100%
+}
+
+.body {
+  background-color: #282c34;
+  min-height: 100%;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+body{
+  display: flex;
+  background: rgb(29, 40, 40);
+}
+
+header{
+  width:100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: rgb(102, 100, 84);
+  top:0;
+}
+
+div{
+text-align: center; 
+}
+
+div.button{
+  height:60%;
+  min-width:3%;
+  bottom:50%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+div.H_item{
+  cursor: pointer;
+  top:50%;
+  bottom:50%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+a{
+cursor: pointer;
+position: absolute;
+}
+
+a.burger_icon{
+  top:7px;
+  left:30px;
+  font-size: 25px;
+}
+
+a.burger_icon:hover{
+  background-color: white;
+}
+
+.button{
+right:30px;
+bottom: 50%;
+color:rgb(153, 115, 0);
+background-color:rgb(255, 249, 230);
+border: none;
+border-radius: 5%;
+background-image:linear-gradient(to left, rgb(229, 240, 240),  rgb(229, 200, 194));
+}
+
+.button:hover{
+  background-image:linear-gradient(to left, rgb(229, 240, 240),  rgb(175, 120, 108));
+
+}

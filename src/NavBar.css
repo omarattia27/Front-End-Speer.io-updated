@@ -1,0 +1,75 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+
+.Header-optionAddress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 9px;
+}
+
+.Header-option {
+    display: flex;
+    flex-direction: column;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Header-optionLineTwo {
+    font-weight: 700;
+}
+
+.Header-optionCart {
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.LiquidButton {
+    /*position: absolute;
+    top: 95%;
+    right: 50%;
+    background-image:linear-gradient(to left, rgb(229, 240, 240),  rgb(102, 100, 84));
+    radius: 50%;
+    border-radius: 12px;
+    width:10%;
+    font-size: 0.8em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    -webkit-tap-highlight-color: transparent;*/
+   
+      /*background-color:#6d572d;  Green */
+
+
+    right: 50%;
+    background-image:linear-gradient(to left, rgb(229, 240, 240),  rgb(102, 100, 84));
+
+    width:10%;
+    font-size: 0.8em;
+    font-family: 'Roboto', sans-serif;
+      border: none;
+      color: white;
+      padding: 10px 30px;
+      text-align: center;
+      text-decoration: none;
+
+      font-size: 16px;
+     /* background-image:linear-gradient(to left, rgb(65, 66, 66),  #6d572d);*/
+     /*background-image:linear-gradient(to left, rgb(65, 66, 66),  rgb(97, 90, 31));*/
+        background-color: Transparent;
+        background-repeat:no-repeat;
+        border: none;
+        cursor:pointer;
+  }
